@@ -2,7 +2,7 @@ import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid'; // Importing uuid
 import supabase from '../services/supabase'; // Importing Supabase client
 
-const BASE_URL = 'http://localhost:3000'; // Your backend URL
+const BASE_URL = 'https://recipesharingapplm.netlify.app/'; // Your backend URL
 
 const api = axios.create({
   baseURL: BASE_URL,
